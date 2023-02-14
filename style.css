@@ -55,7 +55,7 @@ body {
    display: flex;
 }
 
-.tooltip {
+/* .tooltip {
    position: relative;
 }
 
@@ -90,16 +90,16 @@ body {
 .tooltip:hover .tooltiptext {
    visibility: visible;
    opacity: 1;
-}
+} */
 
 
 #pbox1 {
    margin: 0 6vw 0 0;
-   padding: 0 0 0 0;
+   padding-top: 5px;
+   text-align: center;
    background-color: #2F3E53;
    border-width: 0px;
    border-radius: 6px;
-   height: 39px;
    width: 211px;
    font-family: Inter, sans-serif;
    font-size: 16px;
@@ -110,11 +110,12 @@ body {
 
 #pbox2 {
    margin: 0 0 0 0;
-   padding: 0 0 0 0;
+   padding-top: 5px;
+   text-align: center;
    background-color: #2F3E53;
    border-radius: 6px;
    border-width: 0px;
-   height: 39px;
+   height: 35px;
    width: 211px;
    font-family: Inter, sans-serif;
    font-size: 16px;

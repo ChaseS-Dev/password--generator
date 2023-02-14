@@ -106,9 +106,9 @@ function generatePassword() {
   document.getElementById("pbox2").innerHTML = password;
 }
 
-function copyText1() {
-  let copyText = document.getElementById("pbox1");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(copyText.value);
-}
+// function copyText1() {
+//   let copyText = document.getElementById("pbox1");
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999);
+//   navigator.clipboard.writeText(copyText.value);
+// }
