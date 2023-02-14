@@ -1,0 +1,124 @@
+body {
+   margin: 0;
+   background: #1F2937;
+}
+
+.container {
+   margin: 0 10vw;
+   width: 55vw;
+   padding: 0 20px;
+   font-family: Karla, sans-serif;
+   font-weight: 500;
+}
+
+#generate-text {
+   font-size: 40px;
+   text-align: left;
+   margin: 10vh 0 10px 0;
+   width: 45vw;
+   color: white;
+}
+
+#grn-text {
+   color: #4ADF86;
+}
+
+#supporting-text {
+   font-family: Inter, sans-serif;
+   color: #D5D4D8;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 28px;
+   margin: 0 0 50px 0;
+}
+
+#generate {
+   color: white;
+   background-color: #10B981;
+   border-width: 0px;
+   border-radius: 6px;
+   height: 42px;
+   width: 191px;
+   font-family: Inter, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+#line {
+   margin: 10vh 0;
+   padding: 1px;
+   background-color: #2F3E53;
+}
+
+.password-boxes {
+   display: flex;
+}
+
+.tooltip {
+   position: relative;
+}
+
+.tooltip .tooltiptext {
+   visibility: hidden;
+   width: 140px;
+   background-color: #555;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px;
+   position: absolute;
+   z-index: 1;
+   bottom: 150%;
+   left: 50%;
+   margin-left: -75px;
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+}
+
+
+#pbox1 {
+   margin: 0 6vw 0 0;
+   padding: 0 0 0 0;
+   background-color: #2F3E53;
+   border-width: 0px;
+   border-radius: 6px;
+   height: 39px;
+   width: 211px;
+   font-family: Inter, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 32px;
+   color: #55F991;
+}
+
+#pbox2 {
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   background-color: #2F3E53;
+   border-radius: 6px;
+   border-width: 0px;
+   height: 39px;
+   width: 211px;
+   font-family: Inter, sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 32px;
+   color: #55F991;
+}
