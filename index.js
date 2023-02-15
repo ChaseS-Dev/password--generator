@@ -107,10 +107,3 @@ function generatePassword() {
   // console.log(`#2 ${password}`);
   document.getElementById("pbox2").textContent = password;
 }
-
-// function copyText1() {
-//   let copyText = document.getElementById("pbox1");
-//   copyText.select();
-//   copyText.setSelectionRange(0, 99999);
-//   navigator.clipboard.writeText(copyText.value);
-// }
