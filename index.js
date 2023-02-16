@@ -97,13 +97,13 @@ function generatePassword() {
   for (let i = 0; i < 15; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
   }
-  // console.log(`#1 ${password}`);
+
   document.getElementById("pbox1").textContent = password;
 
   password = "";
   for (let i = 0; i < 15; i++) {
     password += characters[Math.floor(Math.random() * characters.length)];
   }
-  // console.log(`#2 ${password}`);
+
   document.getElementById("pbox2").textContent = password;
 }
